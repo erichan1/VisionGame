@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border: 5px solid #d3d3d3;
+    background-color: #f1a1f1;
+}
+</style>
+</head>
+<body onload = "startGame()" >
+<p>THIS... IS... AGAR! (SIMPLE)</p>
+
+<button onmousedown="myBox.setSpeedY(-1)" onmouseup="">Go uppers</button>
+<button onmousedown="myBox.setSpeedY(1)" onmouseup="">get down boi</button>
+<button onmousedown = "myBox.setSpeedX(-1)" onmouseup="">Slide to the left</button>
+<button onmousedown = "myBox.setSpeedX(1)" onmouseup="">get to de choppa on de right</button>
+
+<p id="jsprintout"></p>
+
+<script src = "scripts/vision.js"> </script>
+
+</body>
+</html>
